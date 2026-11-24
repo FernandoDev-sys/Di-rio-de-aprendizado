@@ -30,13 +30,97 @@
     </div>
 
     <main>
+      <div class="sobre_mim"> 
+       <section id="perfil">
+          <h2>Sobre mim</h2>
+          <p>Estou aprendendo a construir sites com HTML e CSS</p> 
+          <label>Minha frase da semana</label> 
+          <input type="text" id="frase" name="frase"
+           placeholder="Vivendo e aprendendo" maxlength="80">
+       </section>
+       </div>
+       
+       <section id="interesses">
+          <label for="int">Foco atual</label>
+          <select id="int" name="int"> 
+             <option value="">Quero me dedicar a</option>
+             <option value="python">Estudar Python</option>
+             <option value="sql">Melhorar em SQL</option>
+             <option value="jogos">Ficar bom em jogos de luta</option>
+           </select>
+       </section>
 
+       <section id="projetos">
+         <div> 
+           <img src="imagens/Configurador de Computador Moderno.png" 
+             width="250" height="170">
+             <h4>Minha página pessoal</h4>
+             <label> 
+               <input type="checkbox" name="html_css" value="html_organizado">
+                HTML organizado
+             </label>
 
+             <label>
+               <input type="checkbox" name="html_css" value="css_aplicado">
+                CSS aplicado
+             </label>
+
+             <label>
+               <input type="checkbox" name="html_css" value="revisao_concluida">
+                Revisão concluída
+             </label>
+         </div>
+ 
+         <div>
+            <img src="imagens/Catálogo de Animais em Azul.png"
+             width="250" height="170">
+              <h4>Meu catálogo de imagens</h4>
+             <label> 
+               <input type="checkbox" name="html_css" value="html_organizado">
+                HTML organizado
+             </label>
+
+             <label>
+               <input type="checkbox" name="html_css" value="css_aplicado">
+                CSS aplicado
+             </label>
+
+             <label>
+               <input type="checkbox" name="html_css" value="revisao_concluida">
+                Revisão concluída
+             </label>
+         </div>
+       </section>
+
+       <section id="rotina">
+         <fieldset>
+            <legend>Minha rotina de estudo</legend>
+             <h4>Turno de estudo</h4>
+             <label> 
+                <input type="radio" name="rotina_estudo" value="manha">
+                 Manhã
+             </label>
+
+             <label> 
+                <input type="radio" name="rotina_estudo" value="tarde">
+                 Tarde
+             </label>
+
+             <label> 
+                <input type="radio" name="rotina_estudo" value="noite">
+                 Noite
+             </label>
+         </fieldset>
+       </section>
+
+       <section id="ideias">
+          <label for="projeto">Meu próximo projeto</label>
+          <textarea id="projeto" name="projeto" rows="3" maxlength="400"></textarea>
+       </section>
     </main>
 
     <footer>
-
-
+        <p>Diário de Fernando | Autoria do aluno</p>
     </footer>
 </body>
 </html>

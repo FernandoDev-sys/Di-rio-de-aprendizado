@@ -4,6 +4,20 @@
  box-sizing: border-box;
 }
 
+
+:root {
+  --primary: #30245C;
+  --secondary: #7155C9;
+  --lavender: #C8B8F0;
+  --background: #F0EBFA;
+  --coral: #FFAD9E;
+  --mint: #B7E4D3;
+  --surface: #FFF9F5;
+  --text: #292638;
+}
+
+
+
 .perfil {
     display: flex;
     align-items: center;
@@ -15,6 +29,9 @@
   display: flex;
   justify-content: space-between; 
   align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: 15px;
 }
 
 
@@ -22,3 +39,34 @@ nav {
   display: flex;
   gap: 25px;
 }
+
+body{
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16x;
+  line-height: 1.5;
+  color: #353333; 
+  background-color: #f4f4f4;
+ 
+}
+
+.sobre_mim {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  padding: 10px 15px;
+  width: 60%;
+  
+  
+
+  
+}
+
+.sobre_mim input{
+  display: block;
+  width: 40%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 4px;
+}
+
