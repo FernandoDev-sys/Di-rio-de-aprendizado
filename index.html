@@ -13,6 +13,7 @@
     <header class="perfil">
        <img src="imagens/foto_de_perfil.png"
         width="100" height="90" >
+    
         
      <div class="info-texto"> 
        <h1>Fernando Durval</h1>
@@ -40,18 +41,23 @@
        </section>
        </div>
        
-       <section id="interesses">
-          <label for="int">Foco atual</label>
-          <select id="int" name="int"> 
-             <option value="">Quero me dedicar a</option>
-             <option value="python">Estudar Python</option>
-             <option value="sql">Melhorar em SQL</option>
-             <option value="jogos">Ficar bom em jogos de luta</option>
+       <div class="foco_atual"> 
+           <section id="interesses">
+            <h2>Foco atual</h2>
+            <label for="int">Quero me dedicar a:</label>
+               <select id="int" name="int"> 
+                 <option value="">Design de páginas</option>
+                 <option value="python">Estudar Python</option>
+                 <option value="sql">Melhorar em SQL</option>
+                 <option value="jogos">Ficar bom em jogos de luta</option>
            </select>
+        </div>
+
        </section>
 
        <section id="projetos">
          <div> 
+           <article class="computador"> 
            <img src="imagens/Configurador de Computador Moderno.png" 
              width="250" height="170">
              <h4>Minha página pessoal</h4>
@@ -69,9 +75,10 @@
                <input type="checkbox" name="html_css" value="revisao_concluida">
                 Revisão concluída
              </label>
-         </div>
+             </article>
+         
  
-         <div>
+            <article class="catalogo_animal"> 
             <img src="imagens/Catálogo de Animais em Azul.png"
              width="250" height="170">
               <h4>Meu catálogo de imagens</h4>
@@ -89,6 +96,7 @@
                <input type="checkbox" name="html_css" value="revisao_concluida">
                 Revisão concluída
              </label>
+             </article>
          </div>
        </section>
 

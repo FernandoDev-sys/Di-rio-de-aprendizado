@@ -9,7 +9,7 @@
   --primary: #30245C;
   --secondary: #7155C9;
   --lavender: #C8B8F0;
-  --background: #F0EBFA;
+  --background:  #f9fafb;
   --coral: #FFAD9E;
   --mint: #B7E4D3;
   --surface: #FFF9F5;
@@ -26,19 +26,41 @@
 
 
 .topo-center {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
+  background-color: #30245C;
   border: 1px solid #cccccc;
   border-radius: 5px;
   margin: 15px;
+  padding: 15px;
+
 }
 
 
 nav {
   display: flex;
+  padding: 10px;
+  width: 70%;
   gap: 25px;
 }
+
+nav a{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+nav a:hover{
+  color:var(--lavender)
+}
+
+.info-texto h1{
+  color: #ffffff;
+}
+
+.info-texto p{
+  color: #ffffff;
+}
+
+
 
 body{
   padding: 10px;
@@ -50,23 +72,48 @@ body{
  
 }
 
-.sobre_mim {
+.sobre_mim{
+  background-color:  #f9fafb;
   border: 1px solid #cccccc;
-  border-radius: 5px;
-  background-color: #f4f4f4;
+  border-radius: 10px;
   padding: 10px 15px;
   width: 60%;
-  
-  
-
-  
 }
 
 .sobre_mim input{
   display: block;
-  width: 40%;
   border: 1px solid #cccccc;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 4px;
+  margin-bottom: 15px;
+  
+}
+
+.foco_atual{
+  background-color:  #f9fafb;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  width: 36%;
+  padding: 13px;
+  margin: 15px;
+ 
+}
+
+.computador{
+  background-color: #f9fafb;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  margin: 20px
+}
+
+.catalogo_animal{
+  background-color: #f9fafb;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  
 }
 
