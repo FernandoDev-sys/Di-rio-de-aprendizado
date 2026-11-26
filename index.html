@@ -31,6 +31,8 @@
     </div>
 
     <main>
+
+     <div class="sobre_foco"> 
       <div class="sobre_mim"> 
        <section id="perfil">
           <h2>Sobre mim</h2>
@@ -52,11 +54,15 @@
                  <option value="jogos">Ficar bom em jogos de luta</option>
            </select>
         </div>
+       </div> 
 
        </section>
 
+      <div class="alinhar_projetos"> 
+      <div class="projetos_rotina"> 
        <section id="projetos">
-         <div> 
+         <h2>Meus projetos</h2>
+         <div class="meus_projetos"> 
            <article class="computador"> 
            <img src="imagens/Configurador de Computador Moderno.png" 
              width="250" height="170">
@@ -97,13 +103,18 @@
                 Revisão concluída
              </label>
              </article>
-         </div>
+         </div>    
        </section>
-
+      </div> 
+      </div>
+      
+      <div class="agrupar"> 
+       <div class="rotina_estudo"> 
        <section id="rotina">
          <fieldset>
-            <legend>Minha rotina de estudo</legend>
-             <h4>Turno de estudo</h4>
+            <legend></legend>
+            <h2>Minha rotina de estudo</h2>
+             <p>Turno de estudo</p>
              <label> 
                 <input type="radio" name="rotina_estudo" value="manha">
                  Manhã
@@ -120,15 +131,21 @@
              </label>
          </fieldset>
        </section>
+       </div>
 
+       <div class="proximo_projeto"> 
        <section id="ideias">
-          <label for="projeto">Meu próximo projeto</label>
-          <textarea id="projeto" name="projeto" rows="3" maxlength="400"></textarea>
-       </section>
-    </main>
-
+          <h2>Caderno de ideias</h2>
+          <label>Meu próximo projeto</label>
+          <textarea id="projeto" name="projeto" rows="3" maxlength="400" placeholder="Escreva seu próximo projeto..."></textarea>
+        </section>
+       </div>
+       </main>
+      </div>
+    
     <footer>
         <p>Diário de Fernando | Autoria do aluno</p>
     </footer>
+
 </body>
 </html>
